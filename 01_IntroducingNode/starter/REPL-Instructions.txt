@@ -1,0 +1,28 @@
+# Navigate to the QuickLabs folder on the command line and type
+node
+
+# At the > prompt type
+>.help
+
+# Create a function called doStuff that prints "Hello World"
+>doStuff = () => "Hello World"
+
+# Call the function
+>doStuff()
+
+'Hello World'
+
+# Save the file using the command
+>.save repl.js
+
+# Close the command line
+# Open the file repl.js is VSCode and edit doStuff
+doStuff = (num1, num2) => num1 + num2
+
+# Open the command line and navigate to repl.js location
+# Start node
+# Open repl.js using the command
+>.load repl.js
+
+# Note the output
+

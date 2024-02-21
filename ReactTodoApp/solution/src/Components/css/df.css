@@ -1,0 +1,52 @@
+header,
+footer {
+  background-color: rgb(6, 20, 80);
+  color: rgb(255, 255, 255);
+}
+
+/* Clear Sans */
+@font-face {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://github.com/intel/clear-sans/blob/main/EOT/ClearSans-Regular.eot"); /* IE9 Compat Modes */
+  src: local("Clear Sans"), local("Clear-Sans"),
+    url("./fonts/ClearSans-Regular.eot#iefix")
+      format("embedded-opentype"),
+    /* Super Modern Browsers*/ url("./fonts/ClearSans-Regular.woff") 
+      format("woff"),
+    /* * Modern Browsers */ url("./fonts/ClearSans-Regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+       url("./fonts/ClearSans-Regular.svg#ClearSans") format("svg"); /*Legacy iOS */
+}
+
+header h1 {
+  font-family: "Clear Sans", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  margin-left: 20px;
+}
+
+a,
+a:hover {
+  color: rgb(200, 200, 200);
+}
+
+body {
+  font-family: "Clear Sans", sans-serif;
+}
+
+.btn-primary {
+  background-color: rgb(6, 20, 80);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(6, 20, 80);
+}
+
+.btn-primary:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(6, 20, 80);
+  border: 1px solid rgb(0, 54, 80);
+}
